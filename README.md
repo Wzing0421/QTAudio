@@ -8,8 +8,11 @@ audiosendthread audsend;
 in mainwindow.cpp:
 
 // to start the audio recieve thread:
+
 aud.setCurrenSampletInfo(8000,16,1);
+
 aud.setCurrentVolume(100);
+
 aud.start();
 
 //to start the audio send thread:
