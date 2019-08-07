@@ -16,6 +16,8 @@ aud.setCurrentVolume(100);
 aud.start();
 
 //to start the audio send thread:
+
 audsend.setaudioformat(8000,1,16);
+
 audsend.mystart();
 
